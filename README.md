@@ -153,7 +153,7 @@ Jackson maps mixed wire keys (`postal_Code`, `flag_Icon`, `isVpn`).
 IPWHO_API_KEY=your_key java TestMain
 ```
 
-The live check is `TestMain.java` (compile it together with the SDK sources and OkHttp/Jackson).
+The live check is `examples/TestMain.java`.
 
 ## Changelog
 
