@@ -1,0 +1,26 @@
+# Internal maintainer docs (do not publish)
+*.internal.md
+
+# Maven / Gradle
+target/
+build/
+.gradle/
+*.class
+*.jar
+*.war
+.classpath
+.project
+.settings/
+
+# Env
+.env
+.env.*
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+.DS_Store
+Thumbs.db
