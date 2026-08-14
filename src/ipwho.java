@@ -1,7 +1,7 @@
 /*
  * IPWho Java SDK v1.0.0
  *
- * Enterprise-grade client for the IPWho IP Intelligence API.
+ * Enterprise-grade client for the IPWho IP Geolocation API.
  * API docs: https://api.ipwho.org
  *
  * Dependencies (Maven):
