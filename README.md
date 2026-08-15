@@ -19,13 +19,13 @@ Maven:
 
 ```xml
 <dependency>
-    <groupId>org.lavrox</groupId>
+    <groupId>com.lavrox</groupId>
     <artifactId>ipwho</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
 
-Gradle: `implementation("org.lavrox:ipwho:1.0.0")`
+Gradle: `implementation("com.lavrox:ipwho:1.0.0")`
 
 Java 11+, OkHttp, Jackson. Package: `com.ipwho`.
 

@@ -4,7 +4,7 @@ plugins {
     id("com.vanniktech.maven.publish") version "0.34.0"
 }
 
-group = "org.lavrox"
+group = "com.lavrox"
 version = "1.0.0"
 
 java {
@@ -32,7 +32,7 @@ signing {
 mavenPublishing {
     publishToMavenCentral()
     signAllPublications()
-    coordinates("org.lavrox", "ipwho", "1.0.0")
+    coordinates("com.lavrox", "ipwho", "1.0.0")
     pom {
         name.set("IPWho Java SDK")
         description.set("Official Java client for the IPWho IP geolocation API.")
