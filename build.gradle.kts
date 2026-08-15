@@ -1,5 +1,6 @@
 plugins {
     `java-library`
+    signing
     id("com.vanniktech.maven.publish") version "0.34.0"
 }
 
@@ -7,9 +8,12 @@ group = "org.lavrox"
 version = "1.0.0"
 
 java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
-    }
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+tasks.withType<JavaCompile>().configureEach {
+    options.release.set(11)
 }
 
 repositories {
@@ -21,13 +25,8 @@ dependencies {
     api("com.fasterxml.jackson.core:jackson-databind:2.17.0")
 }
 
-val signingKeyFile = file("${System.getProperty("user.home")}/.gnupg/ipwho-private.asc")
-if (signingKeyFile.isFile) {
-    extra["signingInMemoryKey"] = signingKeyFile.readText()
-}
-val signingPass = findProperty("signing.password") as String?
-if (!signingPass.isNullOrBlank() && findProperty("signingInMemoryKeyPassword") == null) {
-    extra["signingInMemoryKeyPassword"] = signingPass
+signing {
+    useGpgCmd()
 }
 
 mavenPublishing {
