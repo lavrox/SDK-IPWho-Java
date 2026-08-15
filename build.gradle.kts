@@ -37,7 +37,7 @@ mavenPublishing {
         name.set("IPWho Java SDK")
         description.set("Official Java client for the IPWho IP geolocation API.")
         inceptionYear.set("2026")
-        url.set("https://github.com/lavrox/SDK-IPWho-Java")
+        url.set("https://github.com/lavrox/SDK-IPWho-IP-Geolocation-Java")
         licenses {
             license {
                 name.set("MIT License")
@@ -53,9 +53,9 @@ mavenPublishing {
             }
         }
         scm {
-            url.set("https://github.com/lavrox/SDK-IPWho-Java")
-            connection.set("scm:git:git://github.com/lavrox/SDK-IPWho-Java.git")
-            developerConnection.set("scm:git:ssh://git@github.com/lavrox/SDK-IPWho-Java.git")
+            url.set("https://github.com/lavrox/SDK-IPWho-IP-Geolocation-Java")
+            connection.set("scm:git:git://github.com/lavrox/SDK-IPWho-IP-Geolocation-Java.git")
+            developerConnection.set("scm:git:ssh://git@github.com/lavrox/SDK-IPWho-IP-Geolocation-Java.git")
         }
     }
 }

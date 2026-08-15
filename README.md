@@ -1,6 +1,6 @@
 # IPWho ([ipwho.org](https://www.ipwho.org)) Java SDK
 
-[![Java version](https://img.shields.io/badge/java-11+-orange.svg)](https://www.java.com/) [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/lavrox/SDK-IPWho-Java/blob/main/LICENSE)
+[![Java version](https://img.shields.io/badge/java-11+-orange.svg)](https://www.java.com/) [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/lavrox/SDK-IPWho-IP-Geolocation-Java/blob/main/LICENSE)
 
 Official Java client for the [IPWho](https://www.ipwho.org) IP Geolocation API. One call returns the **full** payload: geolocation, timezone, flag, currency, connection (ASN/ISP), security, and user-agent when present.
 
@@ -169,7 +169,7 @@ MIT License — see [LICENSE](LICENSE).
 
 - Documentation: [ipwho.org/docs](https://www.ipwho.org/docs)
 - Contact: [ipwho.org/contact](https://www.ipwho.org/contact)
-- GitHub Issues: [lavrox/SDK-IPWho-Java](https://github.com/lavrox/SDK-IPWho-Java/issues)
+- GitHub Issues: [lavrox/SDK-IPWho-IP-Geolocation-Java](https://github.com/lavrox/SDK-IPWho-IP-Geolocation-Java/issues)
 - Website: [ipwho.org](https://www.ipwho.org)
 
 ---
